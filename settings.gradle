@@ -1,0 +1,5 @@
+rootProject.name = 'reval-leadex'
+
+include 'app'
+include 'example'
+project(':example').projectDir = file('/source/apps/example/')

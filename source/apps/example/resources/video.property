@@ -1,0 +1,6 @@
+video.enabled=true
+recorder.type=MONTE
+video.frame.rate=24
+video.save.mode=ALL
+video.folder=${user home}/video
+video.mode=ANNOTATED

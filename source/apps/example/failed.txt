@@ -1,0 +1,1 @@
+--tests example.suite.ExampleSuite.wikiTest --tests example.suite.ExampleSuite.wikiTest --tests example.suite.ExampleSuite.wikiTest --tests example.suite.ExampleSuite.wikiTest --tests example.suite.ExampleSuite.wikiTest --tests example.suite.ExampleSuite.wikiTest --tests example.suite.ExampleSuite.wikiTest 

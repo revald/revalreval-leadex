@@ -1,0 +1,13 @@
+#Updated
+#Mon Aug 27 13:13:34 EEST 2018
+gitLabMaster=https://gitlab.com/leadex/Leadium/leadium-examples/tree/master
+highlighterEnabled=true
+savePageSource=false
+containers=true
+startMaximized=true
+browser=chrome
+timeout=30000
+screenshots=false
+headless=false
+driverManagerEnabled=true
+holdBrowserOpen=false

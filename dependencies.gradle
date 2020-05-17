@@ -1,0 +1,29 @@
+ext {
+    versions = [
+            kotlin       : '1.3.71',
+            selenide     : '5.10.0',
+            junit        : '5.4.0',
+            json         : '20180813',
+            allure       : '2.13.2',
+            videoRecorder: '2.0',
+            ffmpeg       : '0.6.2',
+            log4j        : '1.2.17',
+            slf4j        : '1.6.2',
+            shutterbug   : '0.9.3',
+    ]
+
+    libs = [
+            kotlinGradlePlugin: "org.jetbrains.kotlin:kotlin-gradle-plugin:$versions.kotlin",
+            kotlinStdLibJdk8  : "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$versions.kotlin",
+            selenide          : "com.codeborne:selenide:$versions.selenide",
+            junit             : "org.junit.jupiter:junit-jupiter:$versions.junit",
+            json              : "org.json:json:$versions.json",
+            allureJunit5      : "io.qameta.allure:allure-junit5:2.13.2",
+            videoRecorderCore : "com.automation-remarks:video-recorder-core:$versions.videoRecorder",
+            videoRecorderJunit: "com.automation-remarks:video-recorder-junit5:$versions.videoRecorder",
+            ffmpeg            : "net.bramp.ffmpeg:ffmpeg:$versions.ffmpeg",
+            log4j             : "log4j:log4j:$versions.log4j",
+            slf4j             : "org.slf4j:slf4j-simple:$versions.slf4j",
+            shutterbug        : "com.assertthat:selenium-shutterbug:$versions.shutterbug"
+    ]
+}
