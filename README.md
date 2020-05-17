@@ -1,4 +1,4 @@
-# bpm-testing-automation
+# reval-leadex
 
 The automated test-cases writen on *Kotlin* and based on: *Junit5, Leadium, Selenium, Selenide, Selenoid*.
 
@@ -32,13 +32,10 @@ For reporting results of tests uses: *Allure2*.
 ```
   $ ./selenoid -limit 5 -timeout 2m -container-network bridge1
 ```
-- Download project:
-```
-  $ git clone https://github.com/almayce/bpm-automation-testing.git
-```
+
 - Run Tests (from project directory):
 ```
-  $ ./gradlew -Dhost=qa -Dparallel=true :source/apps/module_name:test --tests module_name.suite.SuiteClassName -i
+$ ./gradlew -Dhost=DESKTOP-542K33H -Dparallel=true :example:test --tests example.suite.ExampleSuite -i
 ```
 - Download [Allure](https://github.com/allure-framework/allure2/releases)
 
