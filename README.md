@@ -35,7 +35,7 @@ For reporting results of tests uses: *Allure2*.
 
 - Run Tests (from project directory):
 ```
-$ ./gradlew -Dhost=DESKTOP-542K33H -Dparallel=true :example:test --tests example.suite.ExampleSuite -i
+$ ./gradlew -Dhost=qa -Dparallel=true :example:test --tests example.suite.ExampleSuite -i
 ```
 - Download [Allure](https://github.com/allure-framework/allure2/releases)
 
